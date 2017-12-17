@@ -12,16 +12,14 @@ I provides functionality to an editorial board of various users to generate cont
 
 
 How to Install:
-1) download source
-2) two options for deployment:
-  A) start cgi_scripting_server.py  as localhost and connect using a web browser via localhost:8100
-  B) put everything on a web server (untested)
-3) edit config.ini to be able to access a postgresql server running either remotely or locally
-4) edit editorial_office_admin.py to set the initial editorial board members in variable PERSONS 
-5) run the script editorial_office_admin.py at least once to create the database and tables 
-  - optionally to add users to the editorial board
-  - the entry 'alias' does not serve any purpose currently
-  - uncomment the DROP table statements to reset
-6) access the index.html and log in using a default password i.e. the board member name (case sensitive)
-
-    
+  1) download source
+  2) two options for deployment:
+    A) start cgi_scripting_server.py  as localhost and connect using a web browser via localhost:8100
+    B) put everything on a web server (untested)
+  3) edit config.ini to be able to access a postgresql server running either remotely or locally
+  4) edit editorial_office_admin.py to set the initial editorial board members in variable PERSONS 
+  5) run the script editorial_office_admin.py at least once to create the database and tables 
+    - optionally to add users to the editorial board
+    - the entry 'alias' does not serve any purpose currently
+    - uncomment the DROP table statements to reset
+  6) access the index.html and log in using a default password i.e. the board member name (case sensitive)

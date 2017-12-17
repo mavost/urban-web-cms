@@ -1,0 +1,14 @@
+__init__: Database connected...
+__init__: Expiry time for content: 1520929786.01
+verifyId: Name: Tom, Password: Tom
+verifyId: <lib.database.Database object at 0x02C72AD0>
+verifyId: Database connected
+verifyId: fingerprint_db: bytearray(b'\xd9\xff\xac\xa4mY\x90\xec9P\x1b\xcd\xf2.\xe7\xa1')
+verifyId: fingerprint_pw: b'\xd9\xff\xac\xa4mY\x90\xec9P\x1b\xcd\xf2.\xe7\xa1'
+ecSubmit: Title: Hallo Welt
+ecSubmit: Text:             Heute ist kalt...
+ecSubmit: Saved: Hallo Welt...
+updateNewsfile: Published text contains 10 entry/entries
+getPage: Branch1: Database connection closed...
+getPage: pwerror: 
+getPage: contenterror: Content has been submitted.
